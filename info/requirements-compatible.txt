@@ -1,0 +1,16 @@
+# Windows-compatible requirements with specific versions for Python 3.13
+# This file prioritizes packages with known wheel support
+
+# Core scientific packages (use versions with good wheel availability)
+numpy>=1.24.0,<2.0.0
+pandas>=1.5.0,<3.0.0
+
+# SpaCy with compatible versions
+spacy>=3.4.0,<3.8.0
+
+# TaxoNERD - the main NER tool we need
+taxonerd>=1.5.0
+
+# Additional dependencies that might be needed
+setuptools>=65.0.0
+wheel>=0.38.0
